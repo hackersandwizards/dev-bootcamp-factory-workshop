@@ -1,8 +1,8 @@
 # Day 1 AM — Mechanism Menu
 
-This morning is deliberately overfull. Do not try to make everyone finish every exercise.
+This morning is deliberately overfull. Do not try to finish every exercise.
 
-The goal is to support a mixed room:
+The exercises support a mixed room:
 
 - beginners can build their first Skill
 - intermediate participants can practice planning artifacts
@@ -56,4 +56,3 @@ The real dependency is not "everyone built the same thing." The real dependency 
 ```text
 Afternoon needs a Bean with ## High-Level Plan.
 ```
-

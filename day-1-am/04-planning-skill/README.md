@@ -65,7 +65,7 @@ If you already know Skills, make the planner stricter:
 
 ## Afternoon Bridge
 
-In the afternoon, the planner writes a Bean instead of `.plans/<task>.md`.
+In the afternoon, the planner writes a [Bean](https://github.com/hmans/beans) instead of `.plans/<task>.md`.
 
 The idea is the same:
 
@@ -78,4 +78,3 @@ Reference solution:
 ```text
 solution/.claude/skills/planner/SKILL.md
 ```
-

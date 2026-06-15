@@ -1,15 +1,18 @@
 # Day 1 PM — Common Factory Spine
 
-The afternoon must work even if participants did not complete the advanced morning exercises.
+The afternoon exercises will work even if you did not complete the advanced morning exercises.
 
-So the afternoon starts from a common baseline:
+We start from a common baseline:
 
 - supplied planner
 - supplied refine
 - supplied implement
 - pre-seeded Beans
 
-Participants can replace supplied parts with their own work if they are ready.
+You can replace supplied parts with your own work if it is ready.
+
+**We will be working in the provided `sandbox` folder!**
+
 
 ## Factory Contract
 
@@ -45,7 +48,14 @@ The glue is not magic. It is the contract:
 
 ### Level 1 — Run the Supplied Factory
 
-Use supplied `/planner` and `/refine`. Inspect the Bean after each step.
+Use supplied `/planner` and `/refine`. 
+
+```
+cp -R supplied/planner/.claude/.  sandbox/.claude/
+cp -R supplied/refine/.claude/.   sandbox/.claude/
+```
+
+Inspect the Bean after each step.
 
 Best for participants who spent the morning on beginner exercises or tooling.
 
@@ -76,4 +86,4 @@ Best for advanced participants.
 ../supplied/seeded-beans/
 ```
 
-Use these to keep the whole room moving.
+Check the solutions if you get stuck.
