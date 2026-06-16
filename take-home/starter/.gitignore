@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cache/
+.DS_Store
+*.tsbuildinfo
+
+# Factory artifacts stay on disk, out of git, so planner/refine writes do not
+# trip the implement station's clean-tree preflight.
+.beans/
+runs/
