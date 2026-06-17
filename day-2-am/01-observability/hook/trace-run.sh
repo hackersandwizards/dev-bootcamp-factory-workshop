@@ -7,6 +7,11 @@ ts="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo unknown)"
 changed="$(git diff --name-only 2>/dev/null | wc -l | tr -d ' ')"
 commits="$(git rev-list --count HEAD 2>/dev/null || echo 0)"
-printf '{"at":"%s","branch":"%s","changed_files":%s,"commits":%s}\n' \
-  "$ts" "$branch" "$changed" "$commits" >> runs/trace.jsonl
+jq -cn \
+  --arg at "$ts" \
+  --arg branch "$branch" \
+  --argjson changed_files "${changed:-0}" \
+  --argjson commits "${commits:-0}" \
+  '{at: $at, branch: $branch, changed_files: $changed_files, commits: $commits}' \
+  >> runs/trace.jsonl
 exit 0
