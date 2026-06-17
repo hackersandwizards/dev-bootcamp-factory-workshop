@@ -18,7 +18,7 @@ HLP="$(awk '/^## High-Level Plan$/{f=1;next} /^## /{f=0} f' <<<"$BODY")"
 # --- evals ---
 
 # 1. Planner stayed at altitude: the High-Level Plan names no source file.
-grep -qE '\.ts\(:[0-9]+\)\?\b' <<<"$HLP" \
+grep -qE '\.ts(:[0-9]+)?\b' <<<"$HLP" \
   && fail "High-Level Plan names no source file" \
   || pass "High-Level Plan names no source file"
 
