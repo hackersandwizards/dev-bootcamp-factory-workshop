@@ -128,6 +128,9 @@ day-1-pm/
   README.md
 
 day-2-am/
+  01-observability/
+  02-evals/
+  03-learning-loops/
   README.md
 
 sandbox/
@@ -138,6 +141,12 @@ supplied/
   refine/
   implement/
   seeded-beans/
+
+take-home/
+  After the workshop: carry the factory onto your own project, then add its improvement loop
+
+slides/
+  Slide PDFs from the workshop
 ```
 
 ## Setup
