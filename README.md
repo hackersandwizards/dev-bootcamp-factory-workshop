@@ -1,5 +1,9 @@
 # Dev Bootcamp Factory Workshop Exercises
 
+> **Archived.** This repository holds the exercises as run at a June 2026 bootcamp. The training
+> continues in [hackersandwizards/agentic-software-factory](https://github.com/hackersandwizards/agentic-software-factory),
+> the exercises for Agentic Software Factory: Advanced Team Training. Clone that one.
+
 English exercise repo for a shortened factory-building workshop with mixed participant experience.
 
 The room is diverse: some participants may be creating their first Skill, while others have already built many Skills and want deeper material. This repo is therefore intentionally structured as a **menu**, not a strict linear curriculum. There are more exercises than fit into the morning.
